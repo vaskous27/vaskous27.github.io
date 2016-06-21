@@ -2871,8 +2871,27 @@ img.project-pics {
     }
 }
 
+@media all and (max-width: 380px) {
+  .col-sm-6.screen {
+      background-size: 371px 368px;
+  }
+}
 
+@media all and (max-width: 320px) {
+  .col-sm-6.screen {
+      background-image: url("../images/my_images/projector.png");
+      background-size: 313px 314px;
+      background-repeat: no-repeat;
+      height: 372px;
+      padding-left: 3%;
+  }
 
-    
+  #media2 {
+    margin-top: 78%;
+  }
 
+  .social .link.twitter {
+    margin-bottom: 5%
+  } 
 
+}
