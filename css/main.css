@@ -2895,3 +2895,44 @@ img.project-pics {
   } 
 
 }
+
+/* Index Page Media Queries */
+
+@media all and  (min-width:446px) and (max-width: 769px) {
+   #home-slider .slider-hill, div.mask {
+      visibility: hidden;
+    } 
+
+    #home-slider img.slider-birds1 {
+      width: 35%;
+      right: 15%;
+      bottom: -4%;
+
+    }
+}
+
+@media all and  (min-width:769px) and (max-width: 992px) {
+    #home-slider .slider-hill, div.mask {
+      visibility: hidden;
+    } 
+
+    #home-slider div.slide-text {
+      top: -116px;
+      width: 50%;
+    }
+
+    #home-slider img.slider-birds1 {
+      right: 5%;
+      bottom: 49px;
+      width: 219px;
+    }
+} 
+
+@media all and (max-width: 1198px) {
+   #home-slider .slider-birds1 {
+      right: 312px;
+    }  
+}
+
+
+
